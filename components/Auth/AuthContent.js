@@ -86,10 +86,10 @@ function AuthContent({ isLogin, onAuthenticate }) {
 
   return (
     <View style={styles.container}>
-      {/* <View style={styles.img}>
-          <Image source={require("../../assets/img/logo.png")} />
-        </View> */}
       <View style={styles.rootScreen}>
+      <View style={styles.img}>
+          <Image source={require("../../assets/img/logo.png")} />
+        </View>
         <View style={styles.headerText}>
           <Header>{isLogin ? "WELCOME!" : "REGISTER!"}</Header>
         </View>
@@ -137,8 +137,10 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   img: {
-    flex: 1,
-    marginLeft: 70,
+    // flex: 1,
+    // marginLeft: 70,
+    alignSelf: 'center',
+    marginBottom: 40
   },
   rootScreen: {
     flex: 1,
