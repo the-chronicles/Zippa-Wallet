@@ -10,6 +10,7 @@ import React, { useState } from "react";
 import * as Animatable from "react-native-animatable";
 import SecondaryButton from "../components/UI/Buttons/SecondaryButton";
 
+
 function TargetScreen() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
   const [lockModalIsVisible, setLockModalIsVisible] = useState(false);

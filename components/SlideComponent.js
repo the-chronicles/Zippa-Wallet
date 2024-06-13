@@ -4,14 +4,10 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  SafeAreaView,
-  //   Dimensions,
 } from "react-native";
-// import Carousel from 'react-native-reanimated-carousel';
 import Carousel from "react-native-snap-carousel";
 import Icon from "react-native-vector-icons/Ionicons";
 
-// const { width: screenWidth } = Dimensions.get("window");
 
 const data = [
   { title: "Wallet", balance: 1000, color: "#01063D" },

@@ -5,7 +5,6 @@ import LoginScreen from "./screens/LoginScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import SignupScreen from "./screens/SignupScreen";
 import WelcomeScreen from "./screens/WelcomeScreen";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const Stack = createNativeStackNavigator();
 
@@ -61,11 +60,10 @@ function AuthenticatedStack() {
 
 function Navigation() {
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    
       <NavigationContainer>
         <AuthStack />
       </NavigationContainer>
-    </GestureHandlerRootView>
   );
 }
 
